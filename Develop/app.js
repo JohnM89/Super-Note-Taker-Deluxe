@@ -37,12 +37,12 @@ app.post('/api/notes', (req, res) => {
     const newNote = req.body; 
     newNote.id = require('uuid').v4(); 
     const notes = readNotes(); 
-    notes.push(newNote);notes
+    notes.push(newNote);
 
     // writing the updated notes array to the database file
-    writeNotes(notes); database
+    writeNotes(notes);
     res.json(newNote);
-});
+}); 
 
     // deleting a note with a specific ID
 app.delete('/api/notes/:id', (req, res) => {

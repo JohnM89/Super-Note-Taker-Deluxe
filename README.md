@@ -79,6 +79,6 @@ For any questions, please don't hesitate to contact me at:
 <summary>Show/Hide</summary>
 <br>
 
-![Note Taker Screenshot](public/ScreenShot_Note_Taker.jpeg)
+![Note Taker Screenshot](./public/ScreenShot%20Note%20Taker!.jpeg)
 
 </details>
